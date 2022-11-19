@@ -14,6 +14,12 @@ import RefsComponent from '../topics/refs'
 import ForwardingRefComponent from '../topics/forwardingRefs'
 import ErrorBoundary from '../topics/errorBoundary'
 import HOC from '../topics/higherOrderComponents'
+import RenderProps from "../topics/renderProps"
+import ClassContext from "../topics/context/classContext"
+import AxiosHttp from "../topics/http"
+import FunctionalHookComponent from '../topics/hooks/functionalComponent'
+import HookDataFetching from '../topics/hooks/dataFetching'
+
 const One = () => {
   return (
     <div>
@@ -32,6 +38,11 @@ const One = () => {
         <ForwardingRefComponent/>
         <ErrorBoundary/>
         <HOC/>
+        <RenderProps/>
+        <ClassContext/>
+        <AxiosHttp/>
+        <FunctionalHookComponent/>
+        <HookDataFetching/>
     </div>
   )
 }
